@@ -16,8 +16,7 @@ public class Exercicio02 : MonoBehaviour
             print("Nenhum Power-Up foi localizado");
         }
 
-        //condição ? Caso vdd : Caso falso 
-
+        
         print(powerUp ? "Power-up adquirido" : "Power-Up algum foi encontrado");
 
     }
