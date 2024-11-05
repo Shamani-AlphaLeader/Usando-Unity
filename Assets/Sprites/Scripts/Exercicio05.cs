@@ -6,7 +6,7 @@ public class Exercicio05 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (scoreJogador > 50)
+        if (scoreJogador >= 50)
 
         {
             print("Missao cumprida, muito bom!!!");
