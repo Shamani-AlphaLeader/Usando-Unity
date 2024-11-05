@@ -34,7 +34,7 @@ public class TestandoBem : MonoBehaviour
 
     public int vidaJogador;
 
-    
+
     void Start()
     {
         string tutorial = "AlphaLeaderJubileus";
@@ -48,25 +48,26 @@ public class TestandoBem : MonoBehaviour
         //Resultado = vidaHeroi < vidaVilao ? "Vida Heroi Menor" : "Vida Heroi Maior";
         //print(Resultado);
 
-        if(vidaHeroi < vidaVilao)
+        if (vidaHeroi < vidaVilao)
         {
             Resultado = ("Vida Heroi Menor");
             print(Resultado);
         }
-        else if(vidaHeroi == vidaVilao)
+        else if (vidaHeroi == vidaVilao)
         {
             Resultado = "vida Heroi igual a vida Vilao";
-            print (Resultado);
-        
+            print(Resultado);
+
         }
-        else 
+        else
         {
             Resultado = "Vida Heroi Maior";
             print(Resultado);
         }
 
-    void Update()
-    {
-        
+        void Update()
+        {
+
+        }
     }
 }
