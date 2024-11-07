@@ -855,6 +855,7 @@ GameObject:
   - component: {fileID: 1003205611}
   - component: {fileID: 1003205610}
   - component: {fileID: 1003205614}
+  - component: {fileID: 1003205615}
   m_Layer: 0
   m_Name: idle1 1_0 (1)
   m_TagString: Untagged
@@ -1002,11 +1003,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003205609}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99a8b3867db5806479e342eba3349c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaHeroi: 100
+  vidaVilao: 300
+  variavelPublica: 
+  vidaJogador: 0
+--- !u!114 &1003205615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003205609}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6343706f2b691d4d832ccedb0ff234f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoVida: 0
 --- !u!1 &1027987070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1314,7 @@ GameObject:
   - component: {fileID: 1558565787}
   - component: {fileID: 1558565786}
   - component: {fileID: 1558565785}
+  - component: {fileID: 1558565789}
   m_Layer: 0
   m_Name: idle1_0 (2)
   m_TagString: Untagged
@@ -1430,12 +1449,25 @@ Transform:
   m_GameObject: {fileID: 1558565784}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.36502677, y: 0.7450589, z: 0}
+  m_LocalPosition: {x: 2.23, y: -1.48, z: 0}
   m_LocalScale: {x: 0.50286096, y: 0.9283067, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1847991008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1558565789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558565784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4d31fc6b04bda45a77282a16190130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces: 0
 --- !u!1 &1566068469
 GameObject:
   m_ObjectHideFlags: 0

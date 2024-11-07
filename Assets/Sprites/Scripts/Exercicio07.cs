@@ -14,7 +14,6 @@ public class Exercicio07 : MonoBehaviour
         { 
         print(Random.Range(1, faces));
         }
-        
 
     }
 
