@@ -6,7 +6,7 @@ public class atividade02 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i <= 5; i++)
+        for (int i = 1; i <= 5; i++)
         {
             print("ataque" + i + ": dano" + dano);
             dano += 2;
