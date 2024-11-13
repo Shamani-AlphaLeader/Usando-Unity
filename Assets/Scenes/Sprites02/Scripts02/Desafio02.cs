@@ -31,7 +31,15 @@ public class Desafio02 : MonoBehaviour
                 mesesVividos += 12;
             }
         }
+
+        //RESOLVENDO DE FORMA + SIMPLIFICADA
+
+        //int anosVividos = totalDiasVividos / 365;
+        //int mesesVividos = (totalDiasVividos % 365) / 30;
+        //int diasVividos = (totalDiasVividos 365) % 30;
+
         print("Voce viveu: " + diasVividos + "dias," + mesesVividos + "meses," + anosVividos + "anos.");
+
     }
 
     // Update is called once per frame
